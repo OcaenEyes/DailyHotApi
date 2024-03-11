@@ -2,7 +2,7 @@
  * @Author: OCEAN.GZY
  * @Date: 2024-03-11 16:15:19
  * @LastEditors: OCEAN.GZY
- * @LastEditTime: 2024-03-11 16:40:02
+ * @LastEditTime: 2024-03-11 16:49:30
  * @FilePath: /DailyHotApi/routes/qdbook.js
  * @Description: 注释信
  */
@@ -10,7 +10,7 @@ const Router = require("koa-router");
 const qdbookRouter = new Router();
 
 // 接口信息
-const routerInfo = { name: "hotbook", title: "热门书籍", subtitle: "高质量榜单" };
+const routerInfo = { name: "hotbook", title: "起点热门书籍", subtitle: "高质量榜单" };
 
 // 调用时间
 let updateTime = new Date().toISOString();
